@@ -1,0 +1,183 @@
+.users__box {
+    border: 1px solid var(--border-color);
+    width: 30rem;
+    border-radius: 0.4rem;
+    margin: 1rem;
+
+}
+
+.users__box__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.5rem;
+}
+
+.users__box__top__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users__box__top__user-image {
+    border-radius: 50%;
+    width: 4em;
+    margin-left: 0.5rem;
+}
+
+.users__box__top__user-name {}
+
+.users__box__top__more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--top-bar-bg-color);
+    padding: 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.users__box__top__more:hover .users__box__top__more__content__wrapper {
+    display: block;
+}
+
+.users__box__top__more__icon {
+
+}
+
+.users__box__top__more__content__wrapper {
+    position: absolute;
+    left: 0;
+    top: 2.2rem;
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    width: 6rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    display: none;
+}
+
+.users__box__top__more__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.users__box__top__more__content__edit {
+    color: var(--primary-color);
+
+    margin-bottom: 1.5rem;
+}
+.users__box__top__more__content__delete {
+    color: #CD201F;
+}
+
+.users__box__top__more__content__delete:hover {
+    color: #CD201F;
+}
+
+.users__box__infos {
+    padding: 1rem;
+}
+
+.users__box__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+
+    color: var(--text-color);
+}
+
+.users__box__infos__user-id {
+    display: flex;
+    align-items: center;
+}
+
+.users__box__infos__user-id__icon__wrapper {
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+#id {
+    color: var(--primary-color);
+    background-color: var(--bg-hover-color);
+}
+
+#phoneNumber {
+    color: #388E3C;
+    background-color: #C8E6C9;
+}
+
+#email {
+    color: #512DA8;
+    background-color: #D1C4E9;
+}
+
+
+
+#role {
+    color: #D32F2F;
+    background-color: #FFCDD2;
+}
+
+
+.users__box__infos__user-id__icon {
+
+}
+
+.users__box__infos__user-id__value {
+
+}
+
+.users__box__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid var(--border-color);
+
+}
+
+.users__box__bottom__login-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users__box__bottom__login-date__title {
+    color: var(--primary-color);
+    margin-left: 0.5rem;
+}
+
+.users__box__bottom__login-date__title__value {
+    background-color: var(--bg-hover-color);
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    color: var(--primary-color);
+}
+
+.users__box__bottom__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users__box__bottom__option {
+    color: #D32F2F;
+}
+
+
+.users__box__bottom__option__icon {
+
+}
+
+
+
+.swal-button--cancel {
+    font-family: var(--primary-font);
+}

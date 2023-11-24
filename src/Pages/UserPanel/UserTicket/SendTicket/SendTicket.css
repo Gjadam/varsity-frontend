@@ -1,0 +1,29 @@
+.send-ticket__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.send-ticket__select-box__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+.send-ticket__select-box__title {
+    color: var(--text-color);
+    font-weight: 600;
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+}
+.send-ticket__select-box {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4rem;
+    font-family: var(--font-family);
+    resize: none;
+}

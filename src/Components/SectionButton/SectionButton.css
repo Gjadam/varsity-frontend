@@ -1,0 +1,47 @@
+.section-button {
+    margin-top: var(--margin-top-section);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-button__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    position: relative;
+    color: var(--text-color);
+
+}
+.section-button__link::before {
+    content: "";
+    background-color: var(--bg-hover-color);
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: var(--transition);
+    
+}
+.section-button__link:hover::before {
+    height: 100%;
+}
+
+.section-button__link__icon {
+    margin-right: 0.5rem;
+}
+
+.section-button__link:hover .section-button__link__icon {
+    animation: rotate 0.8s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

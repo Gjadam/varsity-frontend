@@ -1,0 +1,276 @@
+.comments {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: var(--margin-top-section);
+    padding: 3rem;
+    position: relative;
+}
+
+.comments::before {
+    content: "";
+    background-color: var(--border-color);
+    width: 80%;
+    height: 1px;
+    position: absolute;
+    top: 0;
+}
+
+.comments__register-comments {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    min-width: 25rem;
+
+}
+.comments__register-comments__title {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 100%;
+}
+.comments__register-comments__text {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.comments__register-comments__inputs {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30rem;
+}
+.comments__register-comments__input__username {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.comments__register-comments__input__username__label {
+    text-align: start;
+    color: var(--text-color);
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.comments__register-comments__input__username__input {
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 100%;
+    color: var(--text-color);
+    font-family: var(--primary-font);
+}
+.comments__register-comments__input__email {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;    width: 100%;
+}
+.comments__register-comments__input__email__label {
+    text-align: start;
+    color: var(--text-color);
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.comments__register-comments__input__email__input {
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 100%;
+    color: var(--text-color);
+    font-family: var(--primary-font);
+
+}
+.comments__register-comments__input__text-area {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comments__register-comments__input__text-area__label {
+    text-align: start;
+    color: var(--text-color);
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.comments__register-comments__input__text-area__input {
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.3rem;
+    resize: none;
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    padding: 0.5rem;
+}
+
+.comments__register-comments__inputs__submit {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-weight: 900;
+    margin: 1rem 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.comments__register__empty {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.comments__register__empty__style {
+    color: var(--primary-color);
+}
+
+.comments__user-comments {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.comments__user-comments__empty {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+}
+
+.comments__user-comments__title {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: start;
+    width: 100%;
+}
+.comments__user-comments__comment {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.comments__user-comments__comment__username__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments__user-comments__comment__username {
+    color: var(--text-color);
+    font-weight: 900;
+    text-align: start;
+    margin-left: 0.5rem;
+}
+
+.comments__user-comments__comment__username__role {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    background-color: var(--bg-hover-color);
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.comments__user-comments__comment__username__date {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    min-width: 5rem;
+}
+
+.comments__user-comments__comment__user-text {
+    color: var(--text-color);
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: start;
+    margin: 1rem 0;
+}
+
+.comments__user-comments__comment__link {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    background-color: var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    text-align: start;
+
+}
+
+
+.comments__user-comments__comment__answer {
+    padding: 1rem 3rem;
+}
+
+.comments__user-comments__comment__answer__admin-name__wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+
+.comments__user-comments__comment__answer__admin-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-weight: 900;
+    text-align: start;
+    margin-left: 0.5rem;
+    min-width: 11rem;
+}
+
+.comments__user-comments__comment__answer__admin-name__arrow {
+    color: var(--primary-color);
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.comments__user-comments__comment__admin-name__role {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    background-color: var(--bg-hover-color);
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.comments__user-comments__comment__admin-name__date {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    min-width: 5rem;
+}
+
+.comments__user-comments__comment__answer__admin-text {
+    color: var(--text-color);
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: start;
+    margin: 1rem 0;
+}

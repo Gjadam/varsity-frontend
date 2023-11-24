@@ -1,0 +1,43 @@
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.3rem;
+    margin-top: var(--margin-top-section);
+    text-align: center;
+    line-height: 3rem;
+
+}
+
+.section-header__title {
+    color: var(--text-color);
+    font-weight: 900;
+    font-size: 2rem;
+    position: relative;
+}
+.section-header__title::before,
+.section-header__title::after {
+    content: "";
+    background-color: var(--text-color);
+    width: 8rem;
+    height: 1px;
+    bottom: 1.3rem;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.section-header__title::before {
+    right: 105%;
+}
+
+.section-header__title::after {
+    left: 105%;
+
+}
+.section-header__title__style {
+    color: var(--primary-color);
+}
+.section-header__text {
+    color: var(--text-color);
+}

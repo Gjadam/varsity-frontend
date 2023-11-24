@@ -1,0 +1,29 @@
+.admin-panel__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    color: var(--white-color);
+    padding: 0.8rem 1rem;
+    text-align: center;
+}
+
+.admin-panel__item--active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0.4rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+}
+
+.admin-panel__item--active:hover {
+    color: var(--white-color);
+}
+
+.admin-panel__item__title {
+    min-width: 10rem;
+}

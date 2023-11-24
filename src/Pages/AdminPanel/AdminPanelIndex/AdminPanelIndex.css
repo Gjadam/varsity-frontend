@@ -1,0 +1,21 @@
+.dashboard {
+    margin-top: var(--margin-top-section);
+    width: 100%;
+}
+
+.dashboard__boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dashboard__chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard__information {
+    margin-top: var(--margin-top-section);
+}

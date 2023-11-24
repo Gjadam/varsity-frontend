@@ -1,0 +1,182 @@
+.user-panel {
+    margin: 0 auto;
+    position: relative;
+    max-width: 80rem;
+
+}
+
+.user-panel__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -1.3rem;
+    width: 100%;
+}
+
+.user-panel__top__user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-panel__top__user-info__image {
+    height: 7.5rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    border: 0.4rem solid var(--white-color);
+    background-color: var(--white-color);
+}
+
+
+.user-panel__top__user-info__icon {
+    font-size: 7.5rem;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    border: 0.2rem solid var(--white-color);
+    color: var(--primary-color);
+}
+
+.user-panel__top__user-info__wrapper {
+    line-height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.user-panel__top__user-info__name {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.user-panel__top__user-info__email {
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+.user-panel__top__user-info__all-user-courses {
+    border: 1px solid var(--primary-color);
+    padding: 0.7rem 1rem;
+    border-radius: 0.4rem;
+    transition: var(--transition);
+}
+
+.user-panel__top__user-info__all-user-courses:hover {
+    background-color: var(--primary-color);
+}
+
+.user-panel__top__user-info__all-user-courses:hover .user-panel__top__user-info__all-user-courses__btn {
+    color: var(--white-color);
+}
+
+.user-panel__top__user-info__all-user-courses__btn {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.user-panel__dashboard__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    top: 8rem;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.user-panel__dashboard__side-bar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--side-bar-color);
+    border-radius: 0.4rem;
+    min-width: 18rem;
+    padding: 0.5rem 1rem;
+}
+
+.user-panel__dashboard__side-bar__hamburger {
+    display: none;
+}
+
+
+.user-panel__dashboard__side-bar__hamburger__icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+
+.user-panel__dashboard__side-bar__mobile {
+    position: relative;
+    background-color: var(--side-bar-color);
+    position: fixed;
+    right: -20rem;
+    top: 0;
+    bottom: 0;
+    width: 18rem;
+    padding: 1rem;
+    transition: var(--transition);
+}
+
+#log-out {
+    color: #ff0000;
+
+}
+
+#log-out:hover {
+    background-color: #ff000044;
+}
+
+.user-panel__dashboard__side-bar__mobile__close-btn {
+    color: var(--white-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+    align-self: flex-start;
+    margin: 0.5rem 0;
+}
+
+.user-panel__dashboard__side-bar__item {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-direction: row-reverse;
+    color: var(--white-color);
+    margin: 0.3rem 0;
+    border-radius: 0.4rem;
+    padding: 0.7rem;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.user-panel__dashboard__side-bar__item:hover {
+    background-color: var(--white-color);
+    color: var(--side-bar-color-color);
+}
+
+.user-panel__dashboard__side-bar__item--active {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-direction: row-reverse;
+    color: var(--side-bar-color);
+    background-color: var(--white-color);
+    margin: 0.3rem 0;
+    border-radius: 0.4rem;
+    padding: 0.7rem;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.user-panel__dashboard__side-bar__item--active:hover {
+    color: var(--side-bar-color);
+}
+
+.user-panel__dashboard__side-bar__item__icon {
+    margin-left: 0.5rem;
+}
+
+.user-panel__dashboard__info {
+    width: 75%;
+}

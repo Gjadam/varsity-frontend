@@ -1,0 +1,19 @@
+.to-up {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1rem;
+    z-index: 20;
+}
+.to-up__btn {
+    font-size: 2rem;
+    display: none;
+    color: #066bc96b;
+}
+
+.to-up__btn:hover {
+    transform: translateY(-0.5rem);
+}
+
+.to-uo__btn--active {
+    display: block;
+}

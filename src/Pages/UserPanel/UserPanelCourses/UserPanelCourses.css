@@ -1,0 +1,32 @@
+.filter-courses {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border-color);
+
+}
+
+.filter-courses__item {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.filter-courses__item__title {
+    padding: 0.5rem;
+}
+
+.filter-courses__item__title--active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.user-courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}

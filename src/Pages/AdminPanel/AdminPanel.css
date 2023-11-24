@@ -1,0 +1,73 @@
+.admin-panel {
+    
+}
+.admin-panel__side-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--side-bar-color);
+    width: 5rem;
+    height: 100vh;
+    padding: 1rem;
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+.admin-panel__side-bar:hover {
+    width: 15rem;
+}
+
+.admin-panel__side-bar__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid var(--bg-hover-color);
+    padding: 0.5rem 0;
+}
+.admin-panel__side-bar__top__logo {
+
+}
+
+.admin-panel__side-bar__center__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.admin-panel__item__icon {
+    font-size: 1.3rem;
+}
+
+.admin-panel__side-bar__center__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0.5rem;
+    width: 13rem;
+    padding: 1rem;
+}
+
+
+.admin-panel__side-bar__center__bottom__link {
+
+}
+.admin-panel__side-bar__center__bottom__link__icon {
+    color: var(--white-color);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.admin-panel__side-bar__center__bottom__link:hover:nth-child(1) .admin-panel__side-bar__center__bottom__link__icon {
+    color: var(--primary-color);
+}
+
+.admin-panel__side-bar__center__bottom__link:hover:nth-child(2) .admin-panel__side-bar__center__bottom__link__icon {
+    color: #CD201F;
+}
+
+

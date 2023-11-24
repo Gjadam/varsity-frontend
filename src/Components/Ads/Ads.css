@@ -1,0 +1,57 @@
+.Ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: var(--margin-top-section);
+    position: relative;
+}
+
+.Ads::before {
+    content: "";
+    background: url('/public/images/Ads-bg.jpg') no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.Ads__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ads__title {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+    position: relative;
+}
+
+
+.Ads__title__icon1,
+.Ads__title__icon2 {
+    position: absolute;
+    filter: brightness(0.7);
+}
+
+.Ads__title__icon1 {
+    left: 0;
+    bottom: 8rem;
+    animation: icon 8s infinite;
+}
+
+.Ads__title__icon2 {
+
+    right: 0;
+    bottom: 8rem;
+    animation: icon 10s infinite;
+}

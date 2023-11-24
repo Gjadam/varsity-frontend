@@ -1,0 +1,11 @@
+
+.answer {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.no-answer {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    animation: rotate 0.8s linear infinite;
+}

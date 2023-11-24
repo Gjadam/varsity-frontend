@@ -1,0 +1,19 @@
+.user-data-table {
+    width: 100%;
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    border: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+}
+.user-data-table__top {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+
+}
+.user-data-table__top__title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.user-data-table__bottom {
+    padding: 1rem;
+}

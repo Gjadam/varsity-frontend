@@ -1,0 +1,29 @@
+.session {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: var(--margin-top-section);
+}
+
+.session__top__wrapper {
+    padding: 2rem;
+    width: 60rem;
+}
+.session__bottom__wrapper {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 40rem;
+}
+
+.session__course-title {
+    font-size: 1.5rem;
+}
+
+.session__top__video-name {
+    padding: 1rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+    line-break: anywhere;
+}

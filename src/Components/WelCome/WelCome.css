@@ -1,0 +1,32 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--bg-hover-color);
+    flex: 50%;
+}
+
+.welcome__link {
+    margin: 1.5rem;
+}
+.welcome__link__logo {
+
+}
+
+.welcome__title {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+.welcome__text {
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+.welcome__image {
+    max-width: 100%;
+}

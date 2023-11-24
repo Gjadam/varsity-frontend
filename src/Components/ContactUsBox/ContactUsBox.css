@@ -1,0 +1,16 @@
+.contact-us__top__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    margin: 1rem;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    box-shadow: var(--box-shadow);
+
+    min-width: 27rem;
+}

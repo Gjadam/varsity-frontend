@@ -1,0 +1,37 @@
+.user-panel-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    min-width: 19rem;
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    margin: 0.5rem;
+    color: var(--white-color);
+}
+
+
+.user-panel-box__icon__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 0.4rem;
+}
+
+
+.user-panel-box__icon {
+    font-size: 4rem;
+}
+.user-panel-box__content-wrapper {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+.user-panel-box__content-wrapper__title {
+    font-weight: 600;
+}
+.user-panel-box__content-wrapper__count {
+
+}

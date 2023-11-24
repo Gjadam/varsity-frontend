@@ -1,0 +1,35 @@
+.user-ticket__boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.user-ticket__add-ticket__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-ticket__add-ticket__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 0.4rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.user-ticket__add-ticket__link:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.user-ticket__add-ticket__link__icon {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}

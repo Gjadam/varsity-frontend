@@ -1,0 +1,24 @@
+.category__course-not-found__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category__course-not-found__image {
+    width: 35rem;
+}
+
+.category__course-not-found__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary-color);
+
+}
+
+.category__course-not-found__text {
+ text-align: center;
+ color: var(--text-color);
+ line-height: 2.4rem;
+}

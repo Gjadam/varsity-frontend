@@ -1,0 +1,8 @@
+
+.courses-box__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+}

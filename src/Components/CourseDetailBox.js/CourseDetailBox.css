@@ -1,0 +1,18 @@
+.course-info__left-side__box-info__course-detail__box__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.course-info__left-side__box-info__course-detail__box__key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.course-info__left-side__box-info__course-detail__box__value {
+    color: var(--text-color);
+}

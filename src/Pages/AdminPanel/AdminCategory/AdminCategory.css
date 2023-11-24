@@ -1,0 +1,40 @@
+.add-category {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.add-category__top {
+    margin: 1rem 0;
+}
+.add-category__top__title {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.add-category__inputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.add-category__input__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    width: 30rem;
+}
+
+.add-category__input__button__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 20rem;
+}

@@ -1,0 +1,58 @@
+/* Start Default Styles */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #42A5F5;
+  border-radius: 0.1rem;
+}
+
+
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: var(--primary-font) !important;
+  direction: rtl;
+  background-color: var(--white-color);
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+i {
+  user-select: none;
+}
+
+/* Finish Default Styles */

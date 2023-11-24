@@ -1,0 +1,107 @@
+.article-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    margin-top: var(--margin-top-section);
+}
+
+.article-section__article-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--sub-menu-bg-color);
+    border-radius: 0.4rem;
+    margin: 1rem;
+    width: 23rem;
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+.article-section__article-box__image__wrapper {
+    min-width: 23rem;
+    height: 50rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.article-section__article-box__image {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.article-section__article-box__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.article-section__article-box__title {
+    max-width: 22rem;
+    text-align: center;
+    color: var(--text-color);
+    padding: 1rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+.article-section__article-box__text {
+    max-width: 18rem;
+    text-align: center;
+    color: var(--text-color);
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+.article-section__article-box__link {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    position: relative;
+    text-align: center;
+}
+
+.article-section__article-box__link::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: var(--bg-hover-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    transition: var(--transition);
+}
+
+.article-section__article-box__link:hover::before {
+    height: 100%;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
